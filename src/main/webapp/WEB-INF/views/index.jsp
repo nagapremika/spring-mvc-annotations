@@ -36,15 +36,15 @@
                             <c:forEach var="note" items="${notes}" varStatus="status">
                             <tr>
 
-<td>${note.noteId}</td>
-<td>${note.noteTitle}</td>
-<td>${note.noteContent}</td>
-<td>${note.noteStatus}</td>
-<td>${note.createdAt}</td>
-                    </tr>
-                             </c:forEach>
-</tbody>
-                        </table>
+				<td>${note.noteId}</td>
+				<td>${note.noteTitle}</td>
+				<td>${note.noteContent}</td>
+				<td>${note.noteStatus}</td>
+				<td>${note.createdAt}</td>
+                   	    </tr>
+                            </c:forEach>
+	</tbody>
+        </table>
 
 </body>
 </html>
