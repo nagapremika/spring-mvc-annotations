@@ -14,10 +14,10 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 public class Config extends WebMvcConfigurerAdapter {
     @Bean
-    public ViewResolver viewResolver() {
+    public ViewResolver viewResolver() {        //Bean creation for ViewResolver
         InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
         viewResolver.setPrefix("/WEB-INF/views/");
-        viewResolver.setSuffix(".jsp");
+        viewResolver.setSuffix(".jsp");     //sets suffix and prefix for view
         return viewResolver;
 
     }
