@@ -10,7 +10,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 
-public class FrontControllerConfig implements WebApplicationInitializer {
+public class FrontControllerConfig implements WebApplicationInitializer {       //Implements WebApplicationInitializer
 
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {
